@@ -94,10 +94,9 @@ input {
 .banner{
 	width:100%;
 	min-width: 1000px;
-	/*height: 420px;*/
 	height: 420px;
-	background: url(../img/tail-top.jpg) repeat-x;
-	background-size:100%;
+	background: url(../img/tail-top.jpg);
+	background-size:100% 100%;
 }
 .banner_con{
 	width: 1000px;
@@ -247,6 +246,7 @@ input {
 	height: 40px;
 	color: #fff;
 	font:normal 20px/40px "微软雅黑";
+	margin-left: 10px;
 }
 .aside_con .aside_right ul li{
 	margin-bottom: 20px;
@@ -261,6 +261,75 @@ input {
 .aside_con .aside_right ul li a:hover{
 	text-decoration: underline;
 }
+.aside_con .aside_right p{
+	color: #fff;
+	font: normal 14px "微软雅黑";
+	margin-top: 30px;
+}
+.aside_con .aside_center .aside_c_top{
+	width: 348px;
+	height: 94px;
+}
+.aside_con .aside_center .aside_c_top img{
+	display: inline-block;
+	width: 136px;
+	height: 94px;
+	float: left;
+}
+.aside_con .aside_center .aside_c_top span{
+	color: #FFFFFF;
+	display: inline-block;
+	width: 195px;
+	float: left;
+	font: normal 12px "微软雅黑";
+	margin-left: 17px;
+}
+.aside_con .aside_center .aside_c_top span i{
+	float: right;
+	color: #ffc531;
+}
+.aside_con .aside_center .aside_c_bottom{
+	height: 140px;
+	width: 348px;
+	margin-top: 30px;
+}
+.aside_con .aside_center .aside_c_bottom p{
+	color: #fff;
+	font: normal 15px "微软雅黑";
+}
 
+.aside_con .aside_aside{
+	float: left;
+	right: 0;
+	width: 645px;
+	height: 320px;
+}
+.aside_con .aside_aside h2{
+	color: #fff;
+	font:normal 20px/40px "微软雅黑";
+	margin-bottom: 10px;
+}
+.aside_con .aside_aside p{
+	color: #fff;
+	width: 645px;
+	height: 220px;
+}
 
-
+/*底部*/
+.footer{
+	width: 100%;
+	min-width: 1000px;
+	height: 100px;
+	background: url(../img/tail-bottom.jpg);
+	background-size: 100% 100%;
+}
+.footer p{
+	font: normal 12px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+}
+.footer p a{
+	font: normal 12px "微软雅黑";
+	color: #ffc531;
+}
