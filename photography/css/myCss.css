@@ -313,6 +313,60 @@ input {
 	color: #fff;
 	width: 645px;
 	height: 220px;
+	line-height: 40px;
+}
+.aside_con .aside_privacy{
+	margin-left: 60px;
+	width: 875px;
+}
+.aside_con .aside_privacy h2{
+	color: #fff;
+	font:normal 20px/40px "微软雅黑";
+	margin-bottom: 10px;
+}
+.aside_con .aside_privacy p{
+	color: #fff;
+	font: normal 14px "微软雅黑";
+}
+.aside_con .aside_contact{
+	width: 645px;
+	height: 320px;
+	margin-left: 290px;
+}
+.aside_con .aside_contact h2{
+	color: #fff;
+	font:normal 20px/40px "微软雅黑";
+	margin-bottom: 10px;
+}
+.aside_con .aside_contact form{
+	color: #fff;
+	line-height: 30px;
+}
+.aside_con .aside_contact input{
+	border: 1px solid #fff;
+	background: none;
+	margin-left: 20px;
+	width: 300px;
+	margin-top: 5px;
+}
+.aside_con .aside_contact textarea{
+	border: 1px solid #fff;
+	background: none;
+	margin-left: 20px;
+	width: 300px;
+	height: 100px;
+	margin-top: 5px;
+	vertical-align: top;
+}
+.aside_con .aside_contact a{
+	color: #ffc531;
+	font: normal 14px "微软雅黑";
+	display: block;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	margin-left: 200px;
+	margin-top: 30px;
 }
 
 /*底部*/
